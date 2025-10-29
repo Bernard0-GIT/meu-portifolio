@@ -65,6 +65,37 @@ cursor: pointer;
 .icons img:hover {
     width: 40px;
     height: 40px; 
+}
+
+.home-container {
+    background: url("./img/home-img.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.home-container section {
+    display: flex;
+    align-items: center;
+    min-heigth: 100vh
+    
+    .content {
+max-width; 60rem;
+}
+
+.content h3
+color: #fff;
+font-siz: 6rem;
+}
+
+.content p {
+    color: #fff;
+    font-size: 2rem;
+    font-wight: 100;
+    line-height: 1.8;
+    padding: 1rem 0;
+
+}
+
     
     
 
@@ -74,4 +105,5 @@ section{
 
 
 }
+
 
