@@ -13,7 +13,8 @@
     border: none;
     text-decoration: none;
     text-transformtion: capitalize;
-    transition: 0.2 linear;
+    transition: 0.2s linear;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -55,19 +56,22 @@ section {
     padding-bottom: 0.5 rem;
     font-size: 2 rem 
 }
+
+.icons img
+margin: 1 rem;
+cursor: pointer;
+}
+
+.icons img:hover {
+    width: 40px;
+    height: 40px; 
+    
     
 
-p {
-    color: rgb(18, 110, 113);
-}
 
-img {
-    border: 4px solid rgba(126, 0, 0, 0.858);
-
-    border-radius: 500px;
-}
 
 section{ 
 
 
 }
+
